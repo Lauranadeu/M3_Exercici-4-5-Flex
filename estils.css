@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(245, 239, 186);
+
 }
 
 .pare {
@@ -15,8 +17,7 @@ body {
 
     .header {
 
-        background-image: url(imatges/cap.jpg); 
-        background-size: contain;
+       
         display: flex;
         flex-flow: column nowrap;
 }
@@ -29,7 +30,7 @@ body {
             }
 
                 .logo img {
-                    width: 100px;
+                    width: 70px;
                 }
 
             .nav {
@@ -53,13 +54,15 @@ body {
 
                 .social img {
                     height: 30px;
-                    display: flex;
                     align-content: center;
  
             }
 
         .textprincipal {
             text-align: center;
+            background-image: url(imatges/cap.jpg); 
+            background-size: contain;
+            height: 200px;
         }
             h1 {
                 font-size: 25px;
