@@ -21,12 +21,10 @@ body {
         flex-flow: column nowrap;
 }
         .menu {
-            background: #316B83;
             display: flex;
             flex-flow: row nowrap;
 }
             .logo {
-                background: 
                 flex: 1 1 auto;
             }
 
@@ -35,7 +33,6 @@ body {
                 }
 
             .nav {
-                background: 
                 flex: 5 1 auto;
                 display: flex;
             }
@@ -50,7 +47,6 @@ body {
                     }
 
             .social {
-                background: 
                 flex: 1 1 auto;
              
             }
@@ -63,11 +59,9 @@ body {
             }
 
         .textprincipal {
-            background: 
             text-align: center;
         }
             h1 {
-                background: 
                 font-size: 25px;
                 text-align: center;
             }
@@ -86,6 +80,18 @@ body {
                 background: #5C7AEA;
                 flex: 1 1 41%;
             }
+
+                .article img {
+                    width: 100%;
+                }
+                .article h4 {
+                    background-color: rgb(231, 127, 127);
+                }
+
+                .article p {
+                    background-color: rgb(104, 103, 103);
+                }
+
             .navegacio {
                 background: #A2CDCD;
                 flex: 1 1 100%;
