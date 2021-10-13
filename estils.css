@@ -1,6 +1,6 @@
 *{
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     box-sizing: border-box;
 }
 
@@ -28,6 +28,10 @@ body {
                 flex: 1 1 auto;
             }
 
+                .logo img {
+                    width: 100px;
+                }
+
             .nav {
                 background: #FF7878;
                 flex: 5 1 auto;
@@ -36,6 +40,7 @@ body {
             .social {
                 background: #FF7878;
                 flex: 1 1 auto;
+                display: flex;
             }
 
         .textprincipal {
