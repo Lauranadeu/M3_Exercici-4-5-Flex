@@ -40,7 +40,15 @@ body {
             .social {
                 background: #FF7878;
                 flex: 1 1 auto;
-                display: flex;
+                
+             
+            }
+
+                .social img {
+                    height: 30px;
+                    display: flex;
+    
+                 
             }
 
         .textprincipal {
