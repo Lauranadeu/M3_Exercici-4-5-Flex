@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .pare {
     display: flex;
     flex-flow: column nowrap;
@@ -11,6 +15,7 @@
 
     .header {
         background: black;
+        background-image: imatges/cap.jpg;
         display: flex;
         flex-flow: column nowrap;
 }
@@ -36,9 +41,11 @@
 
         .textprincipal {
             background: #F78812;
+            text-align: center;
         }
             h1 {
                 background: #FEE440;
+                font-size: 25px;
             }
 
     .section {
