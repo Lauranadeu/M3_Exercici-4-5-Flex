@@ -16,6 +16,10 @@ a {
 
 }
 
+.nav a:hover {
+    border-bottom: 2px solid black;
+}
+
 
 .pare {
     display: flex;
@@ -210,8 +214,15 @@ a {
         flex-direction: column;
     }
 
+    .aside {
+        width: 100%;
+    }
+
+
+
 @media all and (max-width: 600px) {
         .articulos {
             flex-direction: column;
         }
+       
 }
