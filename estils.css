@@ -1,7 +1,7 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 body {
@@ -13,7 +13,6 @@ body {
 a {
     color: black;
     text-decoration: none;
-
 }
 
 .nav a:hover {
@@ -26,204 +25,214 @@ a {
     flex-flow: column nowrap;
 }
 
-    .header {
-        display: flex;
-        flex-flow: column nowrap;
-        background-image: url(imatges/cap.jpg); 
-        background-position: 50% 60%;
-        margin-bottom: 20px;
-        padding-top: 10px;
-      
-}
-        .menu {
-            display: flex;
-            flex-flow: row nowrap;
-     
-}
-            .logo {
-                flex: 1 1 auto;
-                padding-left: 50px;
-            }
+.header {
+    display: flex;
+    flex-flow: column nowrap;
+    background-image: url(imatges/cap.jpg);
+    background-position: 50% 60%;
+    margin-bottom: 20px;
+    padding-top: 10px;
 
-                .logo img {
-                    width: 70px;
-                }
+}
 
-            .nav {
-                flex: 5 1 auto;
-                display: flex;
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+.logo {
+    flex: 1 1 auto;
+    padding-left: 50px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.nav {
+    flex: 5 1 auto;
+    display: flex;
+
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.nav ul li {
+    padding: 20px;
+    list-style: none
+}
+
+.nav ul li img {
+    width: 22px;
+    padding-right: 5px;
+}
+
+.social {
+    flex: 1 1 auto;
+    padding-top: 20px;
+}
+
+.social img {
+    height: 20px;
+    padding-inline: 10px;
+}
+
+.textprincipal {
+    text-align: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 70px;
+}
+
+h1 {
+    font-size: 25px;
+    background-color: rgba(184, 169, 169, 0.103);
+    height: 80px;
+    width: 75%;
+    text-align: center;
+    padding: 20px;
+    color: rgba(187, 60, 60, 0.664);
+}
+
+.section {
+    background: rgb(190, 188, 188);
+    display: flex;
+    padding: 20px;
+
+
+}
+
+.articulos {
+    background: rgb(190, 188, 188);
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 7px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.article {
+    background: rgb(190, 188, 188);
+    flex: 1 1 41%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(187, 60, 60, 0.664);;
+
+}
+
+.article img {
+    width: 100%;
+    display: flex;
+
+}
+
+.contenidorimatge {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    align-items: flex-end;
+}
+
+.textsobre {
+    position: absolute;
+    padding-left: 10px;
+    color: white;
+}
+
+.article h4 {
+    background-color: rgb(187, 60, 60);
+    padding-left: 10px;
+    color: white;
+}
+
+.article p {
+    background-color: rgb(167, 157, 157);
+    padding: 10px;
+}
+
+.article a {
+    background-color: rgb(167, 157, 157);
+    padding: 10px;
+}
+
+.article a:hover {
+    color: white;
+}
+
+.navegacio {
+    background: rgb(187, 60, 60);
+    flex: 1 1 100%;
+    margin-bottom: 8px;
+    color: white;
+    padding: 2px;
+
+}
+
+.navegacio p {
+    font-size: 14px;
+    text-align: center;
+
+}
+
+aside {
+    background: rgb(190, 188, 188);
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
  
-            }
 
-                .nav ul {
-                    display: flex;
-                    flex-wrap: wrap;
-   
-                }
-
-                    .nav ul li {
-                        padding: 20px;
-                        list-style:none
-                    }
-
-                        .nav ul li img {
-                            width: 22px;
-                            padding-right: 5px;
-              
-                         
-                        }
-
-            .social {
-                flex: 1 1 auto;
-                padding-top: 20px;
-
-             
-            }
-
-                .social img {
-                    height: 20px;
-  
- 
-            }
-
-        .textprincipal {
-            text-align: center;
-            height: 250px;
-            display: flex;
-            justify-content: center;
-            padding: 50px;
-            margin-top: 70px;
-
-
-        }
-            h1 {
-                font-size: 25px;
-                background-color: rgba(184, 169, 169, 0.103);
-                height: 80px;
-                width: 75%;
-                text-align: center;
-                padding: 20px;
-                color:  rgba(187, 60, 60, 0.664);
-            }
-
-    .section {
-        background: rgb(190, 188, 188);
-        display: flex;
-        padding: 20px;
 
 }
-        .articulos {
-            background: rgb(190, 188, 188);
-            flex: 2 1 auto;
-            display: flex;
-            flex-flow: row wrap;
-            gap: 7px;
-            padding-right: 15px;
-            width: 100%;
-        }
-            .article{
-                background: rgb(190, 188, 188);
-                flex: 1 1 41%;
-                display: flex;
-                flex-direction: column;
-           
-            }
 
-                .article img {
-                    width: 100%;
-                    display: flex;
-                }
-                    .contenidorimatge {
-                        position: relative;
-                        display: inline-block;
-                        display: flex;
-                    }
+.publicitat {
+    background: #8a5845;
+    color: white;
 
-                    .textsobre {
-                        position: absolute;
-                        top: 94%;
-                        padding-left: 10px;
-                        color: white;
-                    }
-
-                .article h4 {
-                    background-color: rgb(187, 60, 60);
-                    padding-left: 10px;
-                    color: white;
-                }
-
-                .article p {
-                    background-color: rgb(167, 157, 157);
-                    padding: 10px;
-                }
-
-                .article a {
-                    background-color:rgb(167, 157, 157);
-                    padding: 10px;
-                }
-
-            .navegacio {
-                background: rgb(187, 60, 60);
-                flex: 1 1 100%;
-                margin-bottom: 8px;
-                color: white;
-                padding: 2px;
-
-            }
-
-                .navegacio p {
-                    font-size: 14px;
-                    text-align: center;
-        
-                }
-        aside {
-            background: rgb(190, 188, 188);
-            flex: 1 1 auto;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            width: 40%;
-
-
-        }
-            .publicitat {
-                background: #8a5845;
-                color: white;
- 
-            }
-
-                .publicitat p {
-                    padding: 15px;
-       
-                }
-
-
-
-    .footer {
 }
-        .peu {
-            text-align: center;
-            padding-top: 5px;
-        }
+
+.publicitat p {
+    padding: 15px;
+
+}
+
+
+
+.peu {
+    text-align: center;
+    padding-top: 5px;
+}
 
 @media all and (max-width: 800px) {
-    .section{
+    .section {
         flex-direction: column;
     }
 
-    .article{
+
+    .article {
         flex-direction: column;
     }
 
-    .aside {
-        width: 100%;
+    aside {
+        width: 100%;        
     }
-
-
+    .publicitat {
+        margin-right: 15px;
+    }
+}
 
 @media all and (max-width: 600px) {
-        .articulos {
-            flex-direction: column;
-        }
-       
+    .articulos {
+        flex-direction: column;
+    }
+
 }
