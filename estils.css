@@ -16,8 +16,6 @@ body {
 }
 
     .header {
-
-       
         display: flex;
         flex-flow: column nowrap;
 }
@@ -61,7 +59,8 @@ body {
         .textprincipal {
             text-align: center;
             background-image: url(imatges/cap.jpg); 
-            background-size: contain;
+            background-position: 50% 55%;
+          
             height: 200px;
         }
             h1 {
@@ -88,7 +87,7 @@ body {
                     width: 100%;
                 }
                 .article h4 {
-                    background-color: rgb(231, 127, 127);
+                    background-color: rgb(187, 60, 60);
                 }
 
                 .article p {
@@ -96,9 +95,14 @@ body {
                 }
 
             .navegacio {
-                background: #A2CDCD;
+                background: rgb(187, 60, 60);
                 flex: 1 1 100%;
             }
+
+                .navegacio p {
+                    font-size: 14px;
+                    text-align: center;
+                }
         aside {
             background: rgb(190, 188, 188);
             flex: 1 1 auto;
@@ -109,10 +113,9 @@ body {
 
 
     .footer {
-        background: black;
 }
         .peu {
-            background: #F0A500;
+            text-align: center;
         }
 
 @media all and (max-width: 800px) {
