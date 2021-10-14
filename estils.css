@@ -1,12 +1,13 @@
 *{
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(245, 239, 186);
+    margin: 20px;
 
 }
 
@@ -20,14 +21,18 @@ body {
         flex-flow: column nowrap;
         background-image: url(imatges/cap.jpg); 
         background-position: 50% 55%;
+        margin-bottom: 20px;
+        padding-top: 10px;
       
 }
         .menu {
             display: flex;
             flex-flow: row nowrap;
+     
 }
             .logo {
                 flex: 1 1 auto;
+                padding-left: 50px;
             }
 
                 .logo img {
@@ -37,25 +42,29 @@ body {
             .nav {
                 flex: 5 1 auto;
                 display: flex;
+ 
             }
 
                 .nav ul {
                     display: flex;
                     flex-wrap: wrap;
+   
                 }
 
                     .nav ul li {
-                        
+                        padding: 20px;
                     }
 
             .social {
                 flex: 1 1 auto;
+                padding-top: 20px;
+
              
             }
 
                 .social img {
-                    height: 30px;
-                    align-content: center;
+                    height: 20px;
+  
  
             }
 
@@ -81,21 +90,27 @@ body {
     .section {
         background: rgb(190, 188, 188);
         display: flex;
+        padding: 20px;
+
 }
         .articulos {
             background: rgb(190, 188, 188);
             flex: 2 1 auto;
             display: flex;
             flex-flow: row wrap;
+            gap: 7px;
+            padding-right: 15px;
         }
             .article{
                 background: rgb(190, 188, 188);
                 flex: 1 1 41%;
+           
             }
 
                 .article img {
                     width: 100%;
                 }
+
                 .article h4 {
                     background-color: rgb(187, 60, 60);
                 }
@@ -107,19 +122,34 @@ body {
             .navegacio {
                 background: rgb(187, 60, 60);
                 flex: 1 1 100%;
+                margin-bottom: 8px;
+
             }
 
                 .navegacio p {
                     font-size: 14px;
                     text-align: center;
+        
                 }
         aside {
             background: rgb(190, 188, 188);
             flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
         }
             .publicitat {
-                background: #FCFFA6;
+                background: #8a5845;
+                color: white;
+ 
             }
+
+                .publicitat p {
+                    padding: 15px;
+       
+                }
+
 
 
     .footer {
