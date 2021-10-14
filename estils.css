@@ -8,13 +8,18 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(245, 239, 186);
     margin: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 
 }
+
 
 .pare {
     display: flex;
     flex-flow: column nowrap;
-    height: 100vh;
 }
 
     .header {
@@ -54,6 +59,7 @@ body {
 
                     .nav ul li {
                         padding: 20px;
+                        list-style:none
                     }
 
             .social {
@@ -111,14 +117,28 @@ body {
 
                 .article img {
                     width: 100%;
+                    display: flex;
                 }
+                    .contenidorimatge {
+                        position: relative;
+                        display: inline-block;
+                        display: flex;
+                    }
+
+                    .textsobre {
+                        position: absolute;
+                        top: 94%;
+                        padding-left: 10px;
+                    }
 
                 .article h4 {
                     background-color: rgb(187, 60, 60);
+                    padding-left: 10px;
                 }
 
                 .article p {
                     background-color: rgb(104, 103, 103);
+                    padding: 10px;
                 }
 
             .navegacio {
@@ -139,6 +159,7 @@ body {
             display: flex;
             flex-direction: column;
             gap: 10px;
+
 
         }
             .publicitat {
