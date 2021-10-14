@@ -14,13 +14,14 @@ body {
 .pare {
     display: flex;
     flex-flow: column nowrap;
+    height: 100vh;
 }
 
     .header {
         display: flex;
         flex-flow: column nowrap;
         background-image: url(imatges/cap.jpg); 
-        background-position: 50% 55%;
+        background-position: 50% 60%;
         margin-bottom: 20px;
         padding-top: 10px;
       
@@ -70,10 +71,11 @@ body {
 
         .textprincipal {
             text-align: center;
-            height: 200px;
+            height: 250px;
             display: flex;
             justify-content: center;
             padding: 50px;
+            margin-top: 70px;
 
 
         }
