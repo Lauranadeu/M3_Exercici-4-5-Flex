@@ -18,6 +18,9 @@ body {
     .header {
         display: flex;
         flex-flow: column nowrap;
+        background-image: url(imatges/cap.jpg); 
+        background-position: 50% 55%;
+      
 }
         .menu {
             display: flex;
@@ -58,14 +61,21 @@ body {
 
         .textprincipal {
             text-align: center;
-            background-image: url(imatges/cap.jpg); 
-            background-position: 50% 55%;
-          
             height: 200px;
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+
+
         }
             h1 {
                 font-size: 25px;
+                background-color: rgba(184, 169, 169, 0.103);
+                height: 80px;
+                width: 75%;
                 text-align: center;
+                padding: 20px;
+                color:  rgba(187, 60, 60, 0.664);
             }
 
     .section {
